@@ -1,0 +1,57 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  volcano_number: 1
+  volcano_name: MyString
+  primary_volcano_type: MyString
+  last_eruption_year: 1
+  country: MyString
+  region: MyString
+  subregion: MyString
+  latitude: 1.5
+  longitude: 1.5
+  elevation: 1
+  tectonic_settings: MyString
+  evidence_category: MyString
+  major_rock_1: MyString
+  major_rock_2: MyString
+  major_rock_3: MyString
+  major_rock_4: MyString
+  major_rock_5: MyString
+  minor_rock_1: MyString
+  minor_rock_2: MyString
+  minor_rock_3: MyString
+  minor_rock_4: MyString
+  minor_rock_5: MyString
+  population_within_5_km: 1
+  population_within_10_km: 1
+  population_within_30_km: 1
+  population_within_100_km: 1
+
+two:
+  volcano_number: 1
+  volcano_name: MyString
+  primary_volcano_type: MyString
+  last_eruption_year: 1
+  country: MyString
+  region: MyString
+  subregion: MyString
+  latitude: 1.5
+  longitude: 1.5
+  elevation: 1
+  tectonic_settings: MyString
+  evidence_category: MyString
+  major_rock_1: MyString
+  major_rock_2: MyString
+  major_rock_3: MyString
+  major_rock_4: MyString
+  major_rock_5: MyString
+  minor_rock_1: MyString
+  minor_rock_2: MyString
+  minor_rock_3: MyString
+  minor_rock_4: MyString
+  minor_rock_5: MyString
+  population_within_5_km: 1
+  population_within_10_km: 1
+  population_within_30_km: 1
+  population_within_100_km: 1
