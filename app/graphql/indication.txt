@@ -1,0 +1,44 @@
+pour faire une requette(query):
+
+query {
+  volcanoes {
+    id
+    volcanoName
+    primaryVolcanoType
+    country
+    elevation
+  }
+}
+
+reccuperer un volcan specifique:
+query {
+  volcano(id: 1) {
+    id
+    volcanoName
+    primaryVolcanoType
+    country
+    elevation
+  }
+}
+
+pour faire une modification(mutation):
+
+creation"
+mutation {
+  createVolcano(input: {
+    volcanoName: "Mont cameroun"
+    primaryVolcanoType: "Stratovolcan"
+    country: "cameroun"
+    elevation: 4000
+  }) {
+    volcano {
+      id
+      volcanoName
+      primaryVolcanoType
+      country
+      elevation
+    }
+    errors
+  }
+}
+
