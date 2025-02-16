@@ -21,7 +21,7 @@ query {
   }
 }
 
-pour faire une modification(mutation):
+pour creer un volcan (mutation):
 
 creation"
 mutation {
@@ -42,3 +42,19 @@ mutation {
   }
 }
 
+===pour mettre a jour un volcan
+rails generate graphql:mutation UpdateVolcano
+
+mutation {
+  updateVolcano(input: {id: 1,
+    volcanoName: "mont CAMEROON",
+    elevation: 2000
+  }) {
+    volcano {
+      id
+      volcanoName
+      elevation
+    }
+    errors
+  }
+}
