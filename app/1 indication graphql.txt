@@ -58,3 +58,12 @@ mutation {
     errors
   }
 }
+==
+delete
+
+mutation {
+  deleteVolcano(input: {id: 1
+  }) {
+    clientMutationId
+  } 
+}

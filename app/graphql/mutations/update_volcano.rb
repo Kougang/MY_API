@@ -30,7 +30,6 @@ module Mutations
   argument :population_within_30_km, Integer, required: false
   argument :population_within_100_km, Integer, required: false
 
-  # Champs retournés par la mutation
   field :volcano, Types::VolcanoType, null: true
   field :errors, [String], null: false
 

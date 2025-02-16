@@ -2,6 +2,7 @@
 
 module Types
   class MutationType < Types::BaseObject
+    field :delete_volcano, mutation: Mutations::DeleteVolcano
     field :update_volcano, mutation: Mutations::UpdateVolcano
     field :create_volcano, mutation: Mutations::CreateVolcano
   # field :delete_volcano, mutation: Mutations::DeleteVolcano
